@@ -1,0 +1,19 @@
+Tell Me About Your Project (1–2 minutes)
+
+My project is an Insurance Portfolio Analytics Dashboard built using Power BI.
+
+The objective of the project was to analyze insurance business performance and convert raw insurance data into meaningful business insights for decision making.
+
+I worked with multiple datasets containing customer details, policy information, premium transactions, claims data, and agent information. First, I imported the Excel data into Power BI and performed data cleaning in Power Query by fixing data types, correcting date formats, and preparing the dataset for analysis.
+
+After that, I built a Star Schema data model by creating relationships between dimension and fact tables to improve performance and make reporting easier.
+
+Then I created DAX measures to calculate important KPIs such as Total Premium, Total Claims Amount, Loss Ratio, Claim Approval Rate, and Policy Lapse Rate.
+
+Finally, I designed a 4-page interactive dashboard covering Executive Overview, Claims Analysis, Agent Performance, and Risk & Retention.
+
+One of the major insights I found was that the portfolio had a Loss Ratio of 106%, meaning claims exceeded premiums, which indicated profitability concerns and highlighted the need for business improvement.
+
+Pause.
+
+Done.
