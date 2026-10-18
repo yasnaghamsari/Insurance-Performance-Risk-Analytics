@@ -26,8 +26,8 @@ A professional 4-page Power BI dashboard built on a synthetic Indian insurance d
 - Top 10 Agents by Total Premium
 - Agent Loss Ratio ranking — identifies high-risk agents
 - Conditional formatted table: Green (low risk) → Red (high risk)
-- Shlok Banik — Best performer at 64.4% Loss Ratio
-- Ishaan Mahajan — Highest risk at 129.9% Loss Ratio
+- Among the top 10 agents by premium, Shlok Banik has the best Loss Ratio (64.4%) and Ishaan Mahajan the highest (129.9%)
+- Across all agents, the highest Loss Ratio is Oorja Ratta at 229.0%
 
 ### Page 4 — Risk & Retention
 - Policy Lapse Rate: 14.6% (1,463 lapsed policies)
@@ -106,13 +106,13 @@ Claims per Agent = DIVIDE([Total Claims Count], DISTINCTCOUNT(Fact_Policies[Agen
 
 3. **14.6% policy lapse rate** — 1,463 policies have lapsed, representing significant lost revenue. Retention strategies should target high-lapse segments.
 
-4. **West region — highest risk** — Health insurance in the West region carries a 134.8% Loss Ratio, making it the most unprofitable segment in the portfolio.
+4. **Health in West — highest-risk segment** — Health insurance in the West region carries a 134.8% Loss Ratio, making it the most unprofitable segment in the portfolio.
 
 5. **Life insurance in West — only profitable segment** — At 87.5% Loss Ratio, Life insurance in the West is the only segment operating below 100%, suggesting it is cross-subsidizing other lines.
 
-6. **Agent performance gap** — Top agent (Shlok Banik) operates at 64.4% Loss Ratio vs worst agent at 229%, indicating major underwriting quality differences across the sales force.
+6. **Agent performance gap** — Shlok Banik operates at a 64.4% Loss Ratio vs the worst agent (Oorja Ratta) at 229%, indicating major underwriting quality differences across the sales force.
 
-7. **Premium peaked in April 2024** — The trend analysis reveals premiums peaked at ₹21M/month in mid-2024 before declining — a signal for management to investigate churn or market saturation.
+7. **Premium peaked in April 2024** — The trend analysis reveals premiums peaked at ₹21M/month in April 2024 before declining — a signal for management to investigate churn or market saturation.
 
 ---
 
@@ -141,26 +141,20 @@ Claims per Agent = DIVIDE([Total Claims Count], DISTINCTCOUNT(Fact_Policies[Agen
 ## 📁 Project Structure
 
 ```
-Insurance-PowerBI-Dashboard/
+Insurance-Portfolio-Analytics-PowerBI/
 │
-├── Insurance_PowerBI_Portfolio_Data.xlsx    # Raw dataset (6 sheets)
-├── Insurance_Dashboard.pbix                # Power BI file
-├── README.md                               # Project documentation
-└── Screenshots/
-    ├── Page1_Executive_Overview.png
-    ├── Page2_Claims_Analysis.png
-    ├── Page3_Agent_Performance.png
-    └── Page4_Risk_Retention.png
+├── Insurance_PowerBI_Portfolio_Data.xlsx     # Source dataset
+├── Project_Insurance_PowerBI_Portfolio.pbix  # Power BI report
+├── Insurance-Portfolio-Analytics.pptx        # Presentation of findings
+├── Insurance_Project_Notes.docx              # Project notes
+├── INsurence Scenarios.docx                  # Business scenarios
+├── Screenshot 2026-09-01 130817.png          # Page 1 — Executive Overview
+├── Screenshot 2026-09-01 130828.png          # Page 2 — Claims Analysis
+├── Screenshot 2026-09-01 130835.png          # Page 3 — Agent Performance
+├── Screenshot 2026-09-01 130845.png          # Page 4 — Risk & Retention
+└── README.md                                 # Project documentation
 ```
 
 ---
 
-## 👤 Author
-
-**Akhil Akkineni**  
-Aspiring Data Analyst | Power BI | SQL | Python  
-[LinkedIn](https://www.linkedin.com/in/) | [GitHub](https://github.com/)
-
----
-
-*This project was built as a portfolio piece to demonstrate data modeling, DAX, and business intelligence skills in the insurance domain.*
+*This project demonstrates data modeling, DAX, and business intelligence skills in the insurance domain.*
